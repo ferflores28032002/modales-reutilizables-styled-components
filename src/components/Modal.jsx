@@ -49,7 +49,7 @@ const ContenedorModal = styled.div`
   padding: 20px;
   @media(max-width: 800px) {
     max-width: 350px;
-    margin: 10px;
+    margin: 5px;
   }
 `;
 
