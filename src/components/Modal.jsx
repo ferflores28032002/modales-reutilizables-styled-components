@@ -7,7 +7,7 @@ const Modal = ({ children, closeModal, setcloseModal, title }) => {
       {closeModal && (
         <Overlay>
           <ContenedorModal>
-            <ContenedorHeader>{ title ? title : 'Pon un titulo'} </ContenedorHeader>
+            <ContenedorHeader>{ title ? title : 'Recuerda poner el titulo'} </ContenedorHeader>
 
             <BottonCerrar onClick={() => setcloseModal(!closeModal)}>
               <IoClose size={25} />
